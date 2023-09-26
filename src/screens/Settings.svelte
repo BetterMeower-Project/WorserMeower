@@ -13,8 +13,7 @@
 </Container>
 <Container>
 	<h2>Advertisement</h2>
-	<iframe id="BetterAd"></iframe>
-	<script src="https://adservice.bettermeower.app/assets/scripts/embed.js"></script>
+	<iframe id="BetterAd" src="https://adservice.bettermeower.app/generate" style="border: medium; width: 728px; height: 90px; overflow: hidden;" scrolling="no"></iframe>
 </Container>
 <Container>
 	<h2>Layout</h2>
