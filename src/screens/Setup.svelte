@@ -52,7 +52,7 @@
 				logo.classList.add("top");
 
 				await sleep(700);
-				loginStatus = "Installing Norton 365...";
+				loginStatus = "Installing Protogent...";
 				await connect();
 				loginStatus = "Installed!!!";
 				await sleep(800);
@@ -133,8 +133,7 @@
 		</button>
 		</div>
 		<div out:fade={{duration: 300}} bind:this={setup}>
-			<iframe id="BetterAd"></iframe>
-			<script src="https://adservice.bettermeower.app/assets/scripts/embed.js"></script>
+			<iframe id="BetterAd" src="https://adservice.bettermeower.app/generate" style="border: medium; width: 728px; height: 90px; overflow: hidden;" scrolling="no"></iframe>
 		</div>
 	{:else if $page === "logo"}
 		<div out:fade={{duration: 300}} class="fullcenter intro">
@@ -155,8 +154,7 @@
 		<div class="fullcenter">
 			Don't be naughty!
 			<br>
-			<iframe id="BetterAd"></iframe>
-			<script src="https://adservice.bettermeower.app/assets/scripts/embed.js"></script>
+			<iframe id="BetterAd" src="https://adservice.bettermeower.app/generate" style="border: medium; width: 728px; height: 90px; overflow: hidden;" scrolling="no"></iframe>
 		</div>
 	{:else if $page === "welcome"}
 		<div class="welcome">
@@ -185,8 +183,13 @@
 				</div>
 			</div>
 			<br>
-			<iframe id="BetterAd"></iframe>
-			<script src="https://adservice.bettermeower.app/assets/scripts/embed.js"></script>
+			<iframe id="BetterAd" src="https://adservice.bettermeower.app/generate" style="border: medium; width: 728px; height: 90px; overflow: hidden;" scrolling="no"></iframe>
+<iframe id="BetterAd" src="https://adservice.bettermeower.app/generate" style="border: medium; width: 728px; height: 90px; overflow: hidden;" scrolling="no"></iframe>
+<iframe id="BetterAd" src="https://adservice.bettermeower.app/generate" style="border: medium; width: 728px; height: 90px; overflow: hidden;" scrolling="no"></iframe>
+<iframe id="BetterAd" src="https://adservice.bettermeower.app/generate" style="border: medium; width: 728px; height: 90px; overflow: hidden;" scrolling="no"></iframe>
+<iframe id="BetterAd" src="https://adservice.bettermeower.app/generate" style="border: medium; width: 728px; height: 90px; overflow: hidden;" scrolling="no"></iframe>
+<iframe id="BetterAd" src="https://adservice.bettermeower.app/generate" style="border: medium; width: 728px; height: 90px; overflow: hidden;" scrolling="no"></iframe>
+<iframe id="BetterAd" src="https://adservice.bettermeower.app/generate" style="border: medium; width: 728px; height: 90px; overflow: hidden;" scrolling="no"></iframe>
 		</div>
 	{:else if $page === "login"}
 		<div>
@@ -228,21 +231,23 @@
 			</div>
 		</form>
 		<br>
-		<iframe id="BetterAd"></iframe>
-		<script src="https://adservice.bettermeower.app/assets/scripts/embed.js"></script>
+		<<iframe id="BetterAd" src="https://adservice.bettermeower.app/generate" style="border: medium; width: 728px; height: 90px; overflow: hidden;" scrolling="no"></iframe><iframe id="BetterAd" src="https://adservice.bettermeower.app/generate" style="border: medium; width: 728px; height: 90px; overflow: hidden;" scrolling="no"></iframe><iframe id="BetterAd" src="https://adservice.bettermeower.app/generate" style="border: medium; width: 728px; height: 90px; overflow: hidden;" scrolling="no"></iframe><iframe id="BetterAd" src="https://adservice.bettermeower.app/generate" style="border: medium; width: 728px; height: 90px; overflow: hidden;" scrolling="no"></iframe><iframe id="BetterAd" src="https://adservice.bettermeower.app/generate" style="border: medium; width: 728px; height: 90px; overflow: hidden;" scrolling="no"></iframe><iframe id="BetterAd" src="https://adservice.bettermeower.app/generate" style="border: medium; width: 728px; height: 90px; overflow: hidden;" scrolling="no"></iframe>
 	{:else if $page === "blank"}
 		<div></div>
 	{:else if $page === "go"}
 		<div class="fullcenter">Let's purchase WorserMeower Premium!</div>
-		<iframe id="BetterAd"></iframe>
-		<script src="https://adservice.bettermeower.app/assets/scripts/embed.js"></script>
+		<iframe id="BetterAd" src="https://adservice.bettermeower.app/generate" style="border: medium; width: 728px; height: 90px; overflow: hidden;" scrolling="no"></iframe>
+<iframe id="BetterAd" src="https://adservice.bettermeower.app/generate" style="border: medium; width: 728px; height: 90px; overflow: hidden;" scrolling="no"></iframe>
+<iframe id="BetterAd" src="https://adservice.bettermeower.app/generate" style="border: medium; width: 728px; height: 90px; overflow: hidden;" scrolling="no"></iframe>
 	{:else}
 		Somehow, you got to a page that doesn't exist...
 		<br />
 		(Current page: {$page})
 		<br />
-		<iframe id="BetterAd"></iframe>
-		<script src="https://adservice.bettermeower.app/assets/scripts/embed.js"></script>
+		<iframe id="BetterAd" src="https://adservice.bettermeower.app/generate" style="border: medium; width: 728px; height: 90px; overflow: hidden;" scrolling="no"></iframe>
+<iframe id="BetterAd" src="https://adservice.bettermeower.app/generate" style="border: medium; width: 728px; height: 90px; overflow: hidden;" scrolling="no"></iframe>
+<iframe id="BetterAd" src="https://adservice.bettermeower.app/generate" style="border: medium; width: 728px; height: 90px; overflow: hidden;" scrolling="no"></iframe>
+<iframe id="BetterAd" src="https://adservice.bettermeower.app/generate" style="border: medium; width: 728px; height: 90px; overflow: hidden;" scrolling="no"></iframe>
 
 		<div class="buttons">
 			<button on:click={()=>page.set("page2")}>Go back!</button>
