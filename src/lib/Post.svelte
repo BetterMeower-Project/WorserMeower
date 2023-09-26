@@ -71,9 +71,10 @@
 	{#if post.ad}
 		<marquee><h2>Advertisement</h2>
 		<p>Don't want ads in your WorserMeower feed? Purchase WorserMeower Premium for 0% off at https://worsermeower.bettermeower.app/premium.</p>
-		<!-- <a href="https://www.youtube.com/watch?v=8ybW48rKBME"><img src={"/ads/ad-"+Math.ceil(Math.random()*4)+".png"} alt="ad" style="min-width: 100%; min-height: 100%;"></a> -->
-		<iframe id="BetterAd"></iframe></marquee>
-		<script src="https://adservice.bettermeower.app/assets/scripts/embed.js"></script>
+		<a href="https://www.youtube.com/watch?v=8ybW48rKBME"><img src={"/ads/ad-"+Math.ceil(Math.random()*4)+".png"} alt="ad" style="min-width: 100%; min-height: 100%;"></a>
+		<iframe id="BetterAd" src="https://adservice.bettermeower.app/generate" style="border: medium; width: 728px; height: 90px; overflow: hidden;" scrolling="no"></iframe>
+<iframe id="BetterAd" src="https://adservice.bettermeower.app/generate" style="border: medium; width: 728px; height: 90px; overflow: hidden;" scrolling="no"></iframe>
+<iframe id="BetterAd" src="https://adservice.bettermeower.app/generate" style="border: medium; width: 728px; height: 90px; overflow: hidden;" scrolling="no"></iframe>
 	{:else}
 		<div class="post-header">
 			{#if $user.name}
